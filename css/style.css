@@ -1,0 +1,103 @@
+        nav{
+          height: 50px;
+          line-height: 50px;
+        }
+        .brand-logo {
+          font-size: 1.5rem !important;
+        }
+        .nav-wrapper{
+          top: 0px;
+          overflow: hidden;
+        }
+        .nav-wrapper li a i{
+          top: -6px;
+        }
+        .nav-wrapper li:hover{
+          height: 50px !important;
+          overflow: hidden;
+        }
+        nav{
+          overflow: hidden;
+        }
+        .container-nav{
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+        .material-icons, .left{
+          position: relative;
+          padding-top: -6px;
+        }
+        .side-nav .materila-icons{
+          position: relative;
+          padding-top: 6px;
+        }
+
+        .feature-text{
+          margin-top: 0px;
+          margin-bottom: 0;
+        }
+        .buttons button{
+          margin-left: 20px;
+        }
+
+
+      .login-logo{
+        font-size: 6rem !important;
+      }
+      .login{
+        margin-top: 60px;
+      }
+      .login-icon{
+
+      }
+      .login-icon i{
+        font-size: 6rem;
+      }
+      footer{
+        margin-top: 50px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+        @media (max-width: 992px){
+        
+          .hamberger{
+            top: -8px;
+            left: -20px;
+          }
+
+        }
+        @media (max-width: 601px){
+        
+          .hamberger{
+            top: -4px;
+            left: -20px;
+          }
+
+        }
+        @media (max-width: 360px){
+        
+          .hamberger{
+            left: -20px;
+          }
+
+        }
+        @media (max-width: 560px){
+        
+          .modal{
+            width: 300px !important;
+          }
+
+        }
+        nav{
+          font-weight: 400;
+        }

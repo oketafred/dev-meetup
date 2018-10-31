@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Custom CSS-->
+      <link rel="stylesheet" href="css/style.css">
+
+      <title>DevMeetup | Profile</title>
+    
+    </head>
+    <body>
+
+      <!-- Navbar -->
+        <nav class="red darken-1">
+          <div class="container-nav">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">DevMeetup</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse hamberger"><i style="font-size: 2rem" class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="view_meetups.html"><i class="material-icons left">group</i>VIEW MEETUPS</a></li>
+              <li><a href="organize_meetup.html"><i class="material-icons left">place</i>ORGANIZE MEETUP</a></li>
+              <li  class="active"><a href="profile.html"><i class="material-icons left">person</i>PROFILE</a></li>
+              <li><a href="#"><i class="material-icons left">exit_to_app</i>LOGOUT</a></li>
+            </ul>
+             <ul class="side-nav" id="mobile-demo">
+                  <div class="user-view">
+                    <div class="background">
+                      <img src="images/office.jpg">
+                    </div>
+                    <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+                    <a href="#!name"><span class="white-text name">Oketa Fred</span></a>
+                    <a href="#!email"><span class="white-text email">oketafred@gmail.com</span></a>
+                  </div>
+                  <li><a href="#!"><i style="padding-top: 6px" class="material-icons">group</i>VIEW MEETUPS</a></li>
+                  <li><a href="#!"><i style="padding-top: 6px" class="material-icons">place</i>ORGANIZE MEETUP</a></li>
+                  <li><a href="#!"><i style="padding-top: 6px" class="material-icons">person</i>PROFILE</a></li>
+                  <li><a href="#!"><i style="padding-top: 6px" class="material-icons">exit_to_app</i>LOGOUT</a></li>
+                  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+             </ul>
+          </div>
+          </div>
+        </nav>
+      
+
+        <div class="feature-text">
+          <div class="container">
+            <div class="row">
+              <div class="col m12 s12">
+                <h4 class="center-align">User Profile</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--Fixed Action Bar-->
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red"><i class="material-icons">account_circle</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">place</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">person</i></a></li>
+        </ul>
+      </div>
+
+      
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="jquery/jquery.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $(".button-collapse").sideNav()
+        });
+
+        $(document).ready(function(){
+          $('.slider').slider();
+        });
+
+      </script>
+
+    </body>
+  </html>

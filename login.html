@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Custom CSS-->
+      <link rel="stylesheet" href="css/style.css">
+
+      <title>DevMeetup | Administrator</title>
+    
+    </head>
+    <body class="blue-grey lighten-5">
+
+    <div class="login">
+      <div class="container">
+        <div class="login-icon center-align">
+          <i class="material-icons">account_circle</i>
+          <h5>Welcome to DevMeetup</h5>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 offset-m3">
+            <div class="card small">
+              <div class="card-content">
+                <form>
+                    <div class="input-field">
+                      <i class="material-icons prefix">email</i>
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email Address</label>
+                    </div>
+                    <div class="input-field">
+                      <i class="material-icons prefix">lock</i>
+                      <input id="password" type="password" class="validate">
+                      <label for="password">Password</label>
+                    </div>
+                    <div class="input-field center-align">
+                      <button type="submit" style="width: 100%" class="waves-effect waves-light btn blue darken-1">SIGN IN</button>
+                    </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+      
+
+      
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="jquery/jquery.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $(".button-collapse").sideNav()
+        });
+
+      </script>
+
+    </body>
+  </html>
