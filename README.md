@@ -1,2 +1,2 @@
-# dev-meetup
+# Developer Meetup Application
 Developer Meetup Application
